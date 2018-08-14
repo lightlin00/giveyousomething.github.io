@@ -18,6 +18,13 @@ body{
 
 }
 .cherry{
-    position:absolute;
-    z-index: 200;
+    
+}
+.cherry_parent{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+    margin: 0 auto;
+    z-index:100;
 }
