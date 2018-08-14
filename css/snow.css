@@ -10,12 +10,12 @@ body{
     background:#000;
 }
 .snow_parent{
-    position: relative;
+    position: absolute;
     width: 100%;
     height:100%;
     overflow: hidden;
     margin: 0 auto;
-    z-index:2;
+    z-index:200;
 }
 .snow_parent div.parent{
     background-image: url(../img/snow.png);
