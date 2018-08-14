@@ -15,6 +15,7 @@ body{
     height:100%;
     overflow: hidden;
     margin: 0 auto;
+    z-index:2;
 }
 .snow_parent div.parent{
     background-image: url(../img/snow.png);
