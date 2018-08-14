@@ -17,3 +17,7 @@ sakura{
     /*transform:rotate3d(.6,1,.6,45deg);*/
 
 }
+cherry{
+    position:absolute;
+    z-index: 200;
+}
