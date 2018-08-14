@@ -9,7 +9,7 @@ sakura{
     margin-top:-5%;
     opacity: 0.5;
     position: absolute;
-    z-index: 99;
+    z-index: 200;
     /*-webkit-transform:rotate3d(.6,1,.6,45deg);*/
     /*-moz-transform:rotate3d(.6,1,.6,45deg);*/
     /*-ms-transform:rotate3d(.6,1,.6,45deg);*/
