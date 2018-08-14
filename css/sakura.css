@@ -3,7 +3,7 @@ body{
     background: black;
     box-sizing: border-box;
 }
-sakura{
+.sakura{
     width:50px;
     height:50px;
     margin-top:-5%;
@@ -17,7 +17,7 @@ sakura{
     /*transform:rotate3d(.6,1,.6,45deg);*/
 
 }
-cherry{
+.cherry{
     position:absolute;
     z-index: 200;
 }
