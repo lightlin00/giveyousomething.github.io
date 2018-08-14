@@ -7,7 +7,7 @@
 body{
     width: 100%;
     height:100%;
-    background:#0000000;
+    background:{filter:alpha(opacity=50)};
 }
 .snow_parent{
     position: absolute;
