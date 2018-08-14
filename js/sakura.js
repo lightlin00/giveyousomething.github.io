@@ -43,7 +43,7 @@ $(function() {
                     console.log(time);
                     image_daxiao = randomNum(par.image_min, par.image_max);
                     console.log(image_daxiao);
-                    $('#yinghua:last-child').after('<img id="yinghua" src="../img/yinghua.png" alt="">');
+                    $('#yinghua:last-child').after('<img class = "sakura" id="yinghua" src="../img/yinghua.png" alt="">');
                     $('#yinghua:last-child').css({
                         'margin-left': margin_left + '%',
                         'width': image_daxiao + 'px',
