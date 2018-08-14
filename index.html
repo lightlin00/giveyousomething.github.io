@@ -8,8 +8,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
 	<link href="css/ohmygod.css" rel="stylesheet" type="text/css"/>
-	<link rel="stylesheet" href="css/snow.css">
-    	<script src="js/move.js"></script>
 
 <script>
 var _hmt = _hmt || [];
@@ -19,14 +17,24 @@ var _hmt = _hmt || [];
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
+	 $(function(){
+        $('.cherry').Cherry_Blossoms({
+            is_Cherry:true,//是否生成樱花
+            image_min:10,//花瓣最小宽度和高度
+            image_max:50,//花瓣最大宽度和高度
+            time_min:10000,//花瓣最快下坠时间
+            time_max:20000,//花瓣最慢下坠时间
+            interval:500//花瓣生成时间间隔
+        })
+    })
 </script>
 
 
 </head>
 <body>
-	<div class="snow_parent" id="js_sonw">
-        
-    	</div>
+	<div class="cherry">
+		<img id="yinghua" src="../image/yinghua.png" alt="" >
+	</div>
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-4 col-md-4">
